@@ -34,7 +34,10 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  final controller = NamedPageController<Pagez>(initialPage: Pagez.page2);
+  final controller = NamedPageController<Pagez>(
+    initialPage: Pagez.page1,
+    viewportFraction: 1.0,
+  );
 
   @override
   Widget build(BuildContext context) {
@@ -56,11 +59,16 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       bottomNavigationBar: Row(
         children: [
-          ElevatedButton(onPressed: controller.previousPage, child: Text('previous')),
-          Spacer(),
-          ElevatedButton(onPressed: () => controller.jumpToPage(Pagez.page3), child: Text('Jump to page')),
-          Spacer(),
-          ElevatedButton(onPressed: controller.nextPage, child: Text('next')),
+          ElevatedButton(
+              onPressed: controller.previousPage,
+              child: const Text('previous')),
+          const Spacer(),
+          ElevatedButton(
+              onPressed: () => controller.jumpToPage(Pagez.page3),
+              child: const Text('Jump to page')),
+          const Spacer(),
+          ElevatedButton(
+              onPressed: controller.nextPage, child: const Text('next')),
         ],
       ),
     );

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:named_page_controller/named_page_controller.dart';
-import 'package:named_page_controller/named_page_view.dart';
+import 'package:named_page_view/named_page_controller.dart';
+import 'package:named_page_view/named_page_view.dart';
 
 void main() {
   runApp(const MyApp());

@@ -5,18 +5,18 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "named_page_controller",
+            "name": "named_page_view",
             "request": "launch",
             "type": "dart"
         },
         {
-            "name": "named_page_controller (profile mode)",
+            "name": "named_page_view (profile mode)",
             "request": "launch",
             "type": "dart",
             "flutterMode": "profile"
         },
         {
-            "name": "named_page_controller (release mode)",
+            "name": "named_page_view (release mode)",
             "request": "launch",
             "type": "dart",
             "flutterMode": "release"

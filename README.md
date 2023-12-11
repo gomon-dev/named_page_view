@@ -1,7 +1,6 @@
-# named_page_controller
+# named_page_view
 
-A new Flutter project.
-
+Named Page View
 ## Getting Started
 
 This project is a starting point for a Flutter application.

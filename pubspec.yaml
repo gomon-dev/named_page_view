@@ -1,7 +1,9 @@
-name: named_page_controller
-description: A new Flutter project.
-publish_to: 'none' 
-version: 1.0.0+1
+name: named_page_view
+description: >-
+  Simple dependency that enable Page views to be controlled by enums, 
+  simplifying the understanding and readability of the code.
+version: '1.0.0'
+homepage: https://github.com/gomon-dev/named_page_view
 
 environment:
   sdk: '>=3.1.2 <4.0.0'

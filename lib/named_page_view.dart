@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:named_page_controller/named_page_controller.dart';
+import 'package:named_page_view/named_page_controller.dart';
 
 class NamedPageView<T extends Enum> extends StatefulWidget {
   final Map<T, Widget> pages;

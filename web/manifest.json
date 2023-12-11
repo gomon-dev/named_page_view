@@ -1,6 +1,6 @@
 {
-    "name": "named_page_controller",
-    "short_name": "named_page_controller",
+    "name": "named_page_view",
+    "short_name": "named_page_view",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

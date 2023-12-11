@@ -1,6 +1,6 @@
 # named_page_view
 
-## Getting Started
+## Usage
 
 Simple Flutter library that create a different implementation to the PageView, and PageController. With this implementations, is possible to create page views and control them using enums, where each enum variable refers to a page.
 
